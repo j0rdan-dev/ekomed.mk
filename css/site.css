@@ -1,0 +1,648 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+ u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: unset;
+    
+}
+
+ul > li {
+    margin-top: 10px;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+nav {
+    border-top: solid 1px rgba(0, 0, 0, 1);
+    border-bottom: solid 1px rgba(0, 0, 0, 1);
+    /*padding-left:150px;
+    margin-left:150px;
+    padding-right:150px;
+    padding-bottom:0px;
+    padding-top:0px;
+    margin-right:150px;*/
+    width: 850px;
+    height: 33px;
+}
+
+    nav ul {
+        margin: 0px;
+        height: 100%;
+    }
+
+        nav ul li {
+            display: inline-block;
+            margin-top: 0px;
+            font: normal normal normal 12px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+            height: 100%;
+        }
+
+            nav ul li a {
+                padding: 5px;
+                height: 100%;
+                display: inline-flex;
+                color: black;
+                text-decoration: none;
+                padding-left: 75px;
+                padding-right: 75px;
+                padding-top: 7px;
+                transition: color 0.5s ease 0s;
+                transition: background-color 0.5s ease 0s;
+            }
+
+                nav ul li a:hover {
+                    background-color: black;
+                    color: white;
+                    text-decoration: none;
+                }
+
+.active {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+.splitLine {
+    border-bottom: 1px solid rgba(0, 0, 0, 1) !important;
+    height: 0 !important;
+    min-height: 0 !important;
+}
+
+.contactFormInput {
+    background-color: rgba(255, 255, 255, 1);
+    font: normal normal normal 14px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid rgba(188, 188, 188, 1);
+    color: #666666;
+    margin: 0 0 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.contactFormMessage {
+    height: 67px;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.contact-button {
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 1);
+    font: normal normal normal 15px/1.4em 'open sans',sans-serif;
+    padding: 5px;
+    top: 0;
+    float: right;
+}
+
+.socialIcon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.order-call-button {
+    background-color: #ed4933;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    height: 3.75em;
+    line-height: 3.75em;
+    padding: 10px 8px 10px 8px;
+    font: normal normal normal 25px/1.4em 'open sans condensed',sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.dashedSplitLine {
+    border-bottom: 1px dashed rgba(0, 0, 0, 1) !important;
+    height: 0 !important;
+    min-height: 0 !important;
+}
+
+.solidSplitLine {
+    border-bottom: 1px solid rgba(0, 0, 0, 1) !important;
+    height: 0 !important;
+    min-height: 0 !important;
+}
+
+.headingRow {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align:center
+}
+
+.headingLineContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 33px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.productImage {
+    /*width: 100%;*/
+    /* height: 235px; */
+    object-fit: cover;
+    padding: 10px;
+}
+
+.logo { 
+    object-fit: fill;
+}
+
+.bodyStyle {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.procuctDescriptionContainer {
+    height: 65px;
+    background-color: rgba(242, 211, 101, 1);
+    padding-top: 5px;
+}
+
+.productImageContainer {
+    border: solid;
+    border-color: dimgray;
+    border-width: 1px;
+    border-bottom-width: 0px;
+    height: 299px;
+    width: 182px;
+    vertical-align: bottom;
+    display: table-cell;
+}
+
+.factsContainer {
+    left: 18px; 
+    height: 290px;
+}
+
+.sticky {
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+    position: relative;
+    background-color: #DEE184;
+    border-color: #DEE184;
+    text-align: center;
+    margin: 2.5em 0px 2.5em 5px;
+    padding: 1.5em 0.3em;
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+    font-size: 19px !important;
+    /*font-family: 'Marck Script', cursive;*/
+}
+
+.sticky.taped:after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 151px;
+    height: 35px;
+    top: -21px;
+    left: 18%;
+    background: transparent url(../img/tape.png) 0 0 no-repeat;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    font-size: 82%;
+}
+
+.newPrice {
+    color: red;
+}
+.honeyLink {
+    transition: color 0.4s ease 0s;
+    color: #000000;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.honeyLink:hover{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.honey-image {
+    height: 406px;
+    object-fit: contain;
+}
+
+.about-us-text {
+    font-size: 15px;
+    font-family: Arial;
+}
+/* ---------------------------------------------------------------------- */
+
+/*	Media Queries
+/* ---------------------------------------------------------------------- */
+
+/* Standard 960 or larger (browsers) */
+
+@media only screen and (min-width: 960px) {
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+
+@media only screen and (max-width: 959px) {
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .productImage {
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .headingRow {
+        display: block;
+    }
+
+    .headingLineContainer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .bodyStyle {
+        background-repeat: initial;
+        background-size: inherit;
+        width: 850px;
+    }
+
+    .productImageContainer {
+        height: 353px;
+        display: inline-table;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .font_front {
+        font: normal normal normal 100px/1.4em 'sprite-graffiti',sans-serif;
+        color: #000000;
+    }
+
+    .font_4 {
+        font: normal normal normal 55px/1.4em 'open sans condensed',sans-serif;
+        color: #000000;
+    }
+
+    .font_7 {
+        font: normal normal normal 24px/1.4em 'open sans',sans-serif;
+        color: #000000;
+    }
+
+    .honey-image {
+        width: 60%;
+        height: auto;
+        object-fit: initial;
+    }
+
+    .procuctDescriptionContainer {
+        height: 220px;
+    }
+
+    .font-product-name {
+        font: normal normal normal 35px/1.4em 'open sans',sans-serif;
+        color: #000000;
+    }
+
+    .font-product-price {
+        font: normal normal normal 75px/1.4em 'sprite-graffiti',sans-serif;
+        color: #000000;
+    }
+
+    nav {
+        height: 60px;
+    }
+
+    .font-nav {
+        font: normal normal normal 21px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    }
+
+    nav ul li a {
+        padding-left: 52px;
+        padding-right: 52px;
+        padding-top: 12px;
+    }
+
+
+    .font-title {
+        font-size: 2em;
+    }
+
+    .font-title-slogan {
+        font-size: 2em;
+    }
+
+    .font-recepti-title {
+        font-size: 35px;
+    }
+
+    .mobile-bottom-margin {
+        margin-bottom: 3px;
+    }
+
+    .mobile-bottom-margin15 {
+        margin-bottom: 15px;
+    }
+
+    .mobile-read-text {
+        font-size: 30px;
+    }
+
+    .mobile-read-text35 {
+        font-size: 35px;
+    }
+
+    .factsContainer {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .honey-jar-icon {
+        height: 230px;
+    }
+
+    .contactFormInput {
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .contactFormMessage {
+        height: 150px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .mobile-contact-form {
+        height: 285px;
+    }
+
+    .contact-button {
+        font-size: 25px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+
+@media only screen and (max-width: 767px) {
+    .productImage {
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .headingRow {
+        display: block;
+    }
+
+    .headingLineContainer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .bodyStyle {
+        background-repeat: initial;
+        background-size: inherit;
+        width: 850px;
+    }
+
+    .productImageContainer {
+        height: 353px;
+        display: inline-table;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .font_front {
+        font: normal normal normal 100px/1.4em 'sprite-graffiti',sans-serif;
+        color: #000000;
+    }
+
+    .font_4 {
+        font: normal normal normal 55px/1.4em 'open sans condensed',sans-serif;
+        color: #000000;
+    }
+
+    .font_7 {
+        font: normal normal normal 24px/1.4em 'open sans',sans-serif;
+        color: #000000;
+    }
+
+    .honey-image {
+        width: 60%;
+        height: auto;
+        object-fit: initial;
+    }
+
+    .procuctDescriptionContainer {
+        height: 220px;
+    }
+
+    .font-product-name {
+        font: normal normal normal 35px/1.4em 'open sans',sans-serif;
+        color: #000000;
+    }
+
+    .font-product-price {
+        font: normal normal normal 75px/1.4em 'sprite-graffiti',sans-serif;
+        color: #000000;
+    }
+
+    nav {
+        height: 60px;
+    }
+
+    .font-nav {
+        font: normal normal normal 21px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    }
+
+    nav ul li a {
+        padding-left: 52px;
+        padding-right: 52px;
+        padding-top: 12px;
+    }
+
+
+    .font-title {
+        font-size: 2em;
+    }
+
+    .font-title-slogan {
+        font-size: 2em;
+    }
+
+    .font-recepti-title {
+        font-size: 35px;
+    }
+
+    .mobile-bottom-margin {
+        margin-bottom: 3px;
+    }
+
+    .mobile-bottom-margin15 {
+        margin-bottom: 15px;
+    }
+
+    .mobile-read-text {
+        font-size: 30px;
+    }
+
+    .mobile-read-text35 {
+        font-size: 35px;
+    }
+
+    .factsContainer {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .honey-jar-icon {
+        height: 230px;
+    }
+
+    .contactFormInput {
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .contactFormMessage {
+        height: 150px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .mobile-contact-form {
+        height: 285px;
+    }
+
+    .contact-button {
+        font-size: 25px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .font_front {
+        font: normal normal normal 100px/1.4em 'sprite-graffiti',sans-serif;
+        color: #000000;
+    }
+
+    .font_4 {
+        font: normal normal normal 55px/1.4em 'open sans condensed',sans-serif;
+        color: #000000;
+    }
+
+    .font_7 {
+        font: normal normal normal 24px/1.4em 'open sans',sans-serif;
+        color: #000000;
+    }
+
+    .honey-image {
+        width: 60%;
+        height: auto;
+        object-fit: initial;
+    }
+
+    .honey-jar-icon {
+        height: 230px;
+    }
+
+    .contactFormInput {
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .contactFormMessage {
+        height: 150px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+   .mobile-contact-form {
+        height: 285px;
+    }
+
+    .contact-button {
+        font-size: 25px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+@media only screen and (max-width: 479px) {
+}

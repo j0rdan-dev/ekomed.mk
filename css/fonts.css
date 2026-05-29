@@ -1,0 +1,374 @@
+﻿@font-face {
+    font-family: 'sprite-graffiti';
+    src: url('../fonts/Sprite Graffiti.otf') format('opentype');
+}
+.font_front {
+    font: normal normal normal 68px/1.4em 'sprite-graffiti',sans-serif;
+    color: #000000;
+}
+.font_0 {
+    font: normal normal normal 12px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    color: #000000;
+}
+
+.font_1 {
+    font: normal normal normal 12px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    color: #000000;
+}
+
+.font_2 {
+    font: normal normal normal 44px/1.4em 'open sans condensed',sans-serif;
+    color: #000000;
+}
+
+.font_3 {
+    font: normal normal normal 80px/1.4em itc-arecibo-w01-regular,fantasy;
+    color: #000000;
+}
+
+.font_4 {
+    font: normal normal normal 34px/1.4em 'open sans condensed',sans-serif;
+    color: #000000;
+}
+
+.font_5 {
+    font: normal normal normal 26px/1.4em 'open sans condensed',sans-serif;
+    color: #000000;
+}
+
+.font_6 {
+    font: normal normal normal 22px/1.4em 'open sans condensed',sans-serif;
+    color: #000000;
+}
+
+.font_7 {
+    font: normal normal normal 15px/1.4em 'open sans',sans-serif;
+    color: #000000;
+}
+
+.font_8 {
+    font: normal normal normal 14px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    color: #000000;
+}
+
+.font_9 {
+    font: normal normal normal 12px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    color: #000000;
+}
+
+.font_10 {
+    font: normal normal normal 10px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    color: #000000;
+}
+
+.font-product-name {
+    font: normal normal normal 15px/1.4em 'open sans',sans-serif;
+    color: #000000;
+}
+
+.font-product-price {
+    font: normal normal normal 25px/1.4em 'sprite-graffiti',sans-serif;
+    color: #000000;
+}
+
+.font-nav {
+    font: normal normal normal 12px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+
+.font-title {
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+
+.font-title-slogan {
+    letter-spacing: 0.2em;
+}
+
+
+.color_0 {
+    color: #ffffff;
+}
+
+.backcolor_0 {
+    background-color: #ffffff;
+}
+
+.color_1 {
+    color: #FFFFFF;
+}
+
+.backcolor_1 {
+    background-color: #FFFFFF;
+}
+
+.color_2 {
+    color: #000000;
+}
+
+.backcolor_2 {
+    background-color: #000000;
+}
+
+.color_3 {
+    color: rgba(237,28,36,1);
+}
+
+.backcolor_3 {
+    background-color: rgba(237,28,36,1);
+}
+
+.color_4 {
+    color: rgba(0,136,203,1);
+}
+
+.backcolor_4 {
+    background-color: rgba(0,136,203,1);
+}
+
+.color_5 {
+    color: rgba(255,203,5,1);
+}
+
+.backcolor_5 {
+    background-color: rgba(255,203,5,1);
+}
+
+.color_6 {
+    color: rgba(114,114,114,1);
+}
+
+.backcolor_6 {
+    background-color: rgba(114,114,114,1);
+}
+
+.color_7 {
+    color: rgba(176,176,176,1);
+}
+
+.backcolor_7 {
+    background-color: rgba(176,176,176,1);
+}
+
+.color_8 {
+    color: rgba(255,255,255,1);
+}
+
+.backcolor_8 {
+    background-color: rgba(255,255,255,1);
+}
+
+.color_9 {
+    color: rgba(114,114,114,1);
+}
+
+.backcolor_9 {
+    background-color: rgba(114,114,114,1);
+}
+
+.color_10 {
+    color: rgba(176,176,176,1);
+}
+
+.backcolor_10 {
+    background-color: rgba(176,176,176,1);
+}
+
+.color_11 {
+    color: #FFFFFF;
+}
+
+.backcolor_11 {
+    background-color: #FFFFFF;
+}
+
+.color_12 {
+    color: #EAEAEA;
+}
+
+.backcolor_12 {
+    background-color: #EAEAEA;
+}
+
+.color_13 {
+    color: rgba(188,188,188,1);
+}
+
+.backcolor_13 {
+    background-color: rgba(188,188,188,1);
+}
+
+.color_14 {
+    color: #666666;
+}
+
+.backcolor_14 {
+    background-color: #666666;
+}
+
+.color_15 {
+    color: #000000;
+}
+
+.backcolor_15 {
+    background-color: #000000;
+}
+
+.color_16 {
+    color: #F8E9B0;
+}
+
+.backcolor_16 {
+    background-color: #F8E9B0;
+}
+
+.color_17 {
+    color: #F2D365;
+}
+
+.backcolor_17 {
+    background-color: #F2D365;
+}
+
+.color_18 {
+    color: #B59E4C;
+}
+
+.backcolor_18 {
+    background-color: #B59E4C;
+}
+
+.color_19 {
+    color: #796932;
+}
+
+.backcolor_19 {
+    background-color: #796932;
+}
+
+.color_20 {
+    color: #3C3419;
+}
+
+.backcolor_20 {
+    background-color: #3C3419;
+}
+
+.color_21 {
+    color: #FBD5B2;
+}
+
+.backcolor_21 {
+    background-color: #FBD5B2;
+}
+
+.color_22 {
+    color: #F8C08C;
+}
+
+.backcolor_22 {
+    background-color: #F8C08C;
+}
+
+.color_23 {
+    color: #F4861F;
+}
+
+.backcolor_23 {
+    background-color: #F4861F;
+}
+
+.color_24 {
+    color: #A35915;
+}
+
+.backcolor_24 {
+    background-color: #A35915;
+}
+
+.color_25 {
+    color: #512C0A;
+}
+
+.backcolor_25 {
+    background-color: #512C0A;
+}
+
+.color_26 {
+    color: #F9DEB0;
+}
+
+.backcolor_26 {
+    background-color: #F9DEB0;
+}
+
+.color_27 {
+    color: #F3CC89;
+}
+
+.backcolor_27 {
+    background-color: #F3CC89;
+}
+
+.color_28 {
+    color: #EDA11E;
+}
+
+.backcolor_28 {
+    background-color: #EDA11E;
+}
+
+.color_29 {
+    color: #9E6B14;
+}
+
+.backcolor_29 {
+    background-color: #9E6B14;
+}
+
+.color_30 {
+    color: #4F350A;
+}
+
+.backcolor_30 {
+    background-color: #4F350A;
+}
+
+.color_31 {
+    color: #FBE4AC;
+}
+
+.backcolor_31 {
+    background-color: #FBE4AC;
+}
+
+.color_32 {
+    color: #CAB588;
+}
+
+.backcolor_32 {
+    background-color: #CAB588;
+}
+
+.color_33 {
+    color: rgba(146,130,96,1);
+}
+
+.backcolor_33 {
+    background-color: rgba(146,130,96,1);
+}
+
+.color_34 {
+    color: #5D5340;
+}
+
+.backcolor_34 {
+    background-color: #5D5340;
+}
+
+.color_35 {
+    color: #2E2920;
+}
+
+.backcolor_35 {
+    background-color: #2E2920;
+}
